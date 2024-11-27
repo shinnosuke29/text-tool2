@@ -27,10 +27,11 @@
 ## 出力例
 以下は、`file1.txt` と `file2.txt` に違いがあった場合の出力例です：
 
-Differences found: Line 2: File1: This is a line in file1. File2: This is a modified line in file2.
-
-markdown
-コードをコピーする
+```plaintext
+Differences found: 
+Line 2:
+  File1: This is a line in file1.
+  File2: This is a modified line in file2.
 
 ## ファイル構成
 - `text_compare.py` : ファイル比較のメインスクリプト
