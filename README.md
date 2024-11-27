@@ -39,7 +39,8 @@
  ```Differences found: 
     Line 2:
     File1: This is the second line.
-    File2: This is the modified second line.```
+    File2: This is the modified second line.
+ ```
 
 ## ファイル構成
 プロジェクト内の主要ファイルは以下の通りです：
