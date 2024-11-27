@@ -40,8 +40,7 @@
     Differences found: 
     Line 2:
     File1: This is the second line.
-    File2: This is the modified second line.
-    ```
+    File2: This is the modified second line.```
 
 ## ファイル構成
 プロジェクト内の主要ファイルは以下の通りです：
@@ -51,7 +50,9 @@
 主な機能：
 
 -2つのテキストファイルを読み込み、行単位で比較します。
+
 -一致しない行がある場合、その内容と行番号を表示します。
+
 -ファイルが一致している場合は「Files are identical」と出力します。
 
 -file1.txt
