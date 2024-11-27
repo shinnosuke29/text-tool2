@@ -36,10 +36,12 @@
 ## 出力例
 以下は、file1.txt と file2.txt に違いがあった場合の出力例です：
 
-```Differences found: 
-Line 2:
-  File1: This is the second line.
-  File2: This is the modified second line.```
+    ```bash
+    Differences found: 
+    Line 2:
+    File1: This is the second line.
+    File2: This is the modified second line.
+    ```
 
 ## ファイル構成
 プロジェクト内の主要ファイルは以下の通りです：
