@@ -13,13 +13,13 @@
 以下の手順でプロジェクトをローカル環境にインストールしてください。
 
 ## リポジトリをクローン
-'''git clone https://github.com/ユーザー名/kadai.git'''
+```git clone https://github.com/ユーザー名/kadai.git```
 
 ## ディレクトリに移動
-'''cd kadai'''
+```cd kadai```
 
 ## 依存関係をインストール
-'''pip install -r requirements.txt'''
+```pip install -r requirements.txt```
 
 ## 使用方法
 
