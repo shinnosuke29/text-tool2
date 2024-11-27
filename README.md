@@ -32,3 +32,34 @@
     ```
 
     このコマンドを実行すると、`file1.txt` と `file2.txt` の違いが検出され、結果がコンソールに表示されます。
+
+##出力例
+以下は、file1.txt と file2.txt に違いがあった場合の出力例です：
+
+```Differences found: 
+Line 2:
+  File1: This is the second line.
+  File2: This is the modified second line.```
+
+##ファイル構成
+プロジェクト内の主要ファイルは以下の通りです：
+
+-text_compare.py
+ファイル比較のメインスクリプト。
+主な機能：
+
+-2つのテキストファイルを読み込み、行単位で比較します。
+-一致しない行がある場合、その内容と行番号を表示します。
+-ファイルが一致している場合は「Files are identical」と出力します。
+
+-file1.txt
+比較に使用するサンプルテキストファイル。
+
+-file2.txt
+比較に使用するサンプルテキストファイル。
+
+-README.md
+このプロジェクトの概要や使用方法を説明するファイル。
+
+-.gitignore
+Git 管理から除外するファイルやディレクトリを指定したファイル。
